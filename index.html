@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pharmacy Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Pharmacy Tracker</h1>
+    </header>
+    
+    <main>
+      <div class="add-item">
+        <input type="text" id="item-name" placeholder="Enter item name">
+        <input type="number" id="item-quantity" placeholder="Enter quantity">
+        <input type="date" id="item-expiry" placeholder="Enter expiry date">
+        <button id="add-item-btn">Add Item</button>
+      </div>
+
+      <div class="scanner">
+        <button id="scan-btn">Scan Item (Simulated)</button>
+      </div>
+
+      <section id="inventory">
+        <h2>Inventory</h2>
+        <ul id="item-list"></ul>
+      </section>
+    </main>
+    
+    <footer>
+      <p>&copy; 2025 Pharmacy Tracker</p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
